@@ -27,7 +27,8 @@ function App() {
       {/* Background music stays forever */}
       <audio
         ref={audioRef}
-        src="/bg.mp3"
+        src="/Promise_Proposal-/bg.mp3"
+
         loop
         preload="auto"
         style={{ display: "none" }}
