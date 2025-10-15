@@ -29,5 +29,5 @@
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
   },
-  "homepage": "https://github.com/DASMANOJIT/Promise_Proposal-/.git"
+  "homepage": "https://dasmanojit.github.io/Promise_Proposal-/"
 }
