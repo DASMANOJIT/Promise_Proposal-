@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter , Routes, Route } from "react-router-dom";
 import Landing from "./component/landing/landing.jsx";
 import Q1 from "./component/question_1/q1.jsx";
 import QNA from "./component/QNA/qna.jsx";
@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       {/* Background music stays forever */}
       <audio
         ref={audioRef}
@@ -39,7 +39,7 @@ function App() {
         <Route path="/qna" element={<QNA />} />
         <Route path="/promise" element={<Promise />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
