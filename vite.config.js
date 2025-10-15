@@ -5,4 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
    base: '/Promise_Proposal-/',
   plugins: [react()],
+  build: {
+    outDir: 'dist',
+  },
+  server: {
+    historyApiFallback: true, // 👈 ensures routes work correctly
+  },
 })
