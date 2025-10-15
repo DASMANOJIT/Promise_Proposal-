@@ -29,5 +29,11 @@
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
   },
-  "homepage": "https://dasmanojit.github.io/Promise_Proposal-/"
+  "homepage": "https://dasmanojit.github.io/Promise_Proposal-/" ,
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
 }
