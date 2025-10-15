@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
+    "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -29,11 +29,5 @@
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
   },
-  "homepage": "https://dasmanojit.github.io/Promise_Proposal-/" ,
-  "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
+  "homepage": "https://DASMANOJIT.github.io/Promise_Proposal-/"
 }

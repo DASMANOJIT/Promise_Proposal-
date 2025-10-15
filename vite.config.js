@@ -8,7 +8,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  server: {
-    historyApiFallback: true, // 👈 ensures routes work correctly
-  },
+  
 })

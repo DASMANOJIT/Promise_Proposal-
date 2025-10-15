@@ -27,7 +27,7 @@ function App() {
       {/* Background music stays forever */}
       <audio
         ref={audioRef}
-        src="./bg.mp3"
+        src="/bg.mp3"
         loop
         preload="auto"
         style={{ display: "none" }}
