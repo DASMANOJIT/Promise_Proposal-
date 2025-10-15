@@ -5,7 +5,7 @@ import Landing from "./component/landing/landing.jsx";
 import Q1 from "./component/question_1/q1.jsx";
 import QNA from "./component/QNA/qna.jsx";
 import Promise from './component/promise/promise.jsx';
-import Music from '../public/bg.mp3';
+//import Music from '../public/bg.mp3';
 function App() {
   const audioRef = useRef(null);
 
@@ -28,7 +28,7 @@ function App() {
       {/* Background music stays forever */}
       <audio
         ref={audioRef}
-        src={Music}
+        src={`${process.env.PUBLIC_URL}/bg.mp3`}
         loop
         preload="auto"
         style={{ display: "none" }}
